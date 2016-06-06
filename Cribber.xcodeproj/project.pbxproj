@@ -1,0 +1,1349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45B107551BCB530D00B73388 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B107511BCB530D00B73388 /* Lato-Black.ttf */; };
+		45B107561BCB530D00B73388 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B107511BCB530D00B73388 /* Lato-Black.ttf */; };
+		45B107571BCB530D00B73388 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B107521BCB530D00B73388 /* Lato-Bold.ttf */; };
+		45B107581BCB530D00B73388 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B107521BCB530D00B73388 /* Lato-Bold.ttf */; };
+		45B107591BCB530D00B73388 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B107531BCB530D00B73388 /* Lato-Light.ttf */; };
+		45B1075A1BCB530D00B73388 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B107531BCB530D00B73388 /* Lato-Light.ttf */; };
+		45B1075B1BCB530D00B73388 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B107541BCB530D00B73388 /* Lato-Regular.ttf */; };
+		45B1075C1BCB530D00B73388 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B107541BCB530D00B73388 /* Lato-Regular.ttf */; };
+		45CD54641BD5B3AF00C66BF9 /* NSURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD54631BD5B3AF00C66BF9 /* NSURLExtensions.swift */; };
+		45CD54651BD5B3AF00C66BF9 /* NSURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD54631BD5B3AF00C66BF9 /* NSURLExtensions.swift */; };
+		45CD54671BD5B6B800C66BF9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD54661BD5B6B800C66BF9 /* NavigationController.swift */; };
+		45CD54681BD5B6B800C66BF9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD54661BD5B6B800C66BF9 /* NavigationController.swift */; };
+		45F4812D1BCE0E9A008E0A73 /* SettingsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4812C1BCE0E9A008E0A73 /* SettingsItemCell.swift */; };
+		45F4812E1BCE0E9A008E0A73 /* SettingsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4812C1BCE0E9A008E0A73 /* SettingsItemCell.swift */; };
+		A44A5CF6BDC44E29F0F858B4 /* Pods_Cribber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F342F1D7B5E4C596582219CD /* Pods_Cribber.framework */; };
+		EA085BC21AE3AB6700581C1F /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA085BC11AE3AB6700581C1F /* SecureStore.swift */; };
+		EA085BC41AE3ADE200581C1F /* StationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA085BC31AE3ADE200581C1F /* StationManager.swift */; };
+		EA085BC61AE3AE1300581C1F /* InvitationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA085BC51AE3AE1300581C1F /* InvitationManager.swift */; };
+		EA085BCA1AE3B1BF00581C1F /* StationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA085BC91AE3B1BF00581C1F /* StationBuilder.swift */; };
+		EA16AFB71AF6E67B00B9AFA7 /* Cribber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA16AFB51AF6E67B00B9AFA7 /* Cribber.xcdatamodeld */; };
+		EA4485FA1AE39C64001F3735 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4485F91AE39C64001F3735 /* AuthenticationManager.swift */; };
+		EA478E711AF85577000F55A0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA478E701AF85577000F55A0 /* CoreData.framework */; };
+		EA478E731AF85582000F55A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA478E721AF85582000F55A0 /* SystemConfiguration.framework */; };
+		EA478E751AF8558A000F55A0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA478E741AF8558A000F55A0 /* libz.dylib */; };
+		EA478E771AF85595000F55A0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA478E761AF85595000F55A0 /* libsqlite3.dylib */; };
+		EA52A6871ADF69FC002F8BEF /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A6861ADF69FC002F8BEF /* Attachment.swift */; };
+		EA52A68B1ADF69FD002F8BEF /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A68A1ADF69FD002F8BEF /* Station.swift */; };
+		EA52A68D1ADF6FF8002F8BEF /* FeedItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A68C1ADF6FF8002F8BEF /* FeedItemInfo.swift */; };
+		EA6B55161ADE2B900090EC27 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B55151ADE2B900090EC27 /* CoreDataStack.swift */; };
+		EA6B55181ADF0DA20090EC27 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B55171ADF0DA20090EC27 /* CoreDataStore.swift */; };
+		EA6B551A1ADF1C480090EC27 /* FeedItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B55191ADF1C480090EC27 /* FeedItemExtensions.swift */; };
+		EA6B551C1ADF393B0090EC27 /* FeedItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B551B1ADF393B0090EC27 /* FeedItemType.swift */; };
+		EA6B551E1ADF39750090EC27 /* AttachmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B551D1ADF39750090EC27 /* AttachmentType.swift */; };
+		EA705BCD1ABF9E6F00161C34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA705BCC1ABF9E6F00161C34 /* AppDelegate.swift */; };
+		EA705BD51ABF9E6F00161C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA705BD31ABF9E6F00161C34 /* Main.storyboard */; };
+		EA705BDA1ABF9E6F00161C34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA705BD81ABF9E6F00161C34 /* LaunchScreen.xib */; };
+		EA705BE61ABF9E6F00161C34 /* CribberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA705BE51ABF9E6F00161C34 /* CribberTests.swift */; };
+		EA732F941AF8213F007C6688 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732F931AF8213F007C6688 /* AnalyticsManager.swift */; };
+		EA77B48E1AF873F4004C933D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77B48D1AF873F4004C933D /* Log.swift */; };
+		EA7C39A61AD6139A00E004FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C39A51AD6139A00E004FD /* Constants.swift */; };
+		EA7C39A81AD61FC000E004FD /* AttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C39A71AD61FC000E004FD /* AttachmentCell.swift */; };
+		EA7FC9111AD7604D00B61684 /* AttachmentPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7FC9101AD7604D00B61684 /* AttachmentPreviewController.swift */; };
+		EA846AA91AE099D9007BA364 /* AttachmentExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AA81AE099D9007BA364 /* AttachmentExtensions.swift */; };
+		EA846AAB1AE09A23007BA364 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AAA1AE09A23007BA364 /* Identifiable.swift */; };
+		EA846AAD1AE09AE4007BA364 /* StationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AAC1AE09AE4007BA364 /* StationExtensions.swift */; };
+		EA846AAF1AE09ED9007BA364 /* ObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AAE1AE09ED9007BA364 /* ObjectExtensions.swift */; };
+		EA846AB11AE0A852007BA364 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AB01AE0A852007BA364 /* FeedItem.swift */; };
+		EA846AB51AE0BC7E007BA364 /* AttachmentPreviewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AB41AE0BC7E007BA364 /* AttachmentPreviewItem.swift */; };
+		EA8A325B1AEDAB05009D32D1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A325A1AEDAB05009D32D1 /* Country.swift */; };
+		EA8A325D1AEDBC5E009D32D1 /* PhoneNumberHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A325C1AEDBC5E009D32D1 /* PhoneNumberHelper.swift */; };
+		EA8A325F1AEEFAEB009D32D1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A325E1AEEFAEB009D32D1 /* StringExtensions.swift */; };
+		EA8A32611AEF0AF3009D32D1 /* ValidatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A32601AEF0AF3009D32D1 /* ValidatedTextField.swift */; };
+		EA8A32631AEF2714009D32D1 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A32621AEF2714009D32D1 /* ErrorResponse.swift */; };
+		EA8A326E1AEF3F62009D32D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8A32701AEF3F62009D32D1 /* Localizable.strings */; };
+		EA8E61331AE46B0A00D98D7C /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E61321AE46B0A00D98D7C /* ViewControllerExtensions.swift */; };
+		EA8E61351AE47A0F00D98D7C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E61341AE47A0F00D98D7C /* SettingsViewController.swift */; };
+		EA8E61371AE4A6AB00D98D7C /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E61361AE4A6AB00D98D7C /* PhoneNumber.swift */; };
+		EA8E61391AE4AA7200D98D7C /* CribberAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E61381AE4AA7200D98D7C /* CribberAPI.swift */; };
+		EAADAD041AFC4BCF0090EE70 /* SignupFormHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAADAD031AFC4BCF0090EE70 /* SignupFormHelper.swift */; };
+		EAAE56C31ADB459600B4BF8E /* InvitationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56C21ADB459600B4BF8E /* InvitationCell.swift */; };
+		EAAE56C51ADB45C300B4BF8E /* AlertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56C41ADB45C300B4BF8E /* AlertCell.swift */; };
+		EAAE56C71ADB461500B4BF8E /* BulletinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56C61ADB461500B4BF8E /* BulletinCell.swift */; };
+		EAAE56CD1ADB6C7800B4BF8E /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56CC1ADB6C7800B4BF8E /* DefaultButton.swift */; };
+		EAB8B4031AD49533003DCA7F /* FeedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4001AD49533003DCA7F /* FeedItemCell.swift */; };
+		EAB8B4041AD49533003DCA7F /* PhoneNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4011AD49533003DCA7F /* PhoneNumberField.swift */; };
+		EAB8B4081AD4953C003DCA7F /* NoticeboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4051AD4953C003DCA7F /* NoticeboardViewController.swift */; };
+		EAB8B4091AD4953C003DCA7F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4061AD4953C003DCA7F /* SignupViewController.swift */; };
+		EAB8B40A1AD4953C003DCA7F /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4071AD4953C003DCA7F /* VerifyViewController.swift */; };
+		EAB8B40D1AD49549003DCA7F /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B40B1AD49549003DCA7F /* ColorExtensions.swift */; };
+		EAB8B40E1AD49549003DCA7F /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B40C1AD49549003DCA7F /* Styles.swift */; };
+		EAB8B4111AD4980C003DCA7F /* FeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4101AD4980C003DCA7F /* FeedManager.swift */; };
+		EAB8B4131AD4D14D003DCA7F /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4121AD4D14D003DCA7F /* DateFormatterExtensions.swift */; };
+		EAC410E21B93EC810010B01D /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B55171ADF0DA20090EC27 /* CoreDataStore.swift */; };
+		EAC410E31B93EC810010B01D /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4071AD4953C003DCA7F /* VerifyViewController.swift */; };
+		EAC410E41B93EC810010B01D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77B48D1AF873F4004C933D /* Log.swift */; };
+		EAC410E51B93EC810010B01D /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B40B1AD49549003DCA7F /* ColorExtensions.swift */; };
+		EAC410E61B93EC810010B01D /* StationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA085BC31AE3ADE200581C1F /* StationManager.swift */; };
+		EAC410E71B93EC810010B01D /* NoStationFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD65B51ADB839B00C156B0 /* NoStationFeedItem.swift */; };
+		EAC410E81B93EC810010B01D /* FeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4101AD4980C003DCA7F /* FeedManager.swift */; };
+		EAC410E91B93EC810010B01D /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AB01AE0A852007BA364 /* FeedItem.swift */; };
+		EAC410EA1B93EC810010B01D /* FeedItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B551B1ADF393B0090EC27 /* FeedItemType.swift */; };
+		EAC410EB1B93EC810010B01D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A68A1ADF69FD002F8BEF /* Station.swift */; };
+		EAC410EC1B93EC810010B01D /* ObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AAE1AE09ED9007BA364 /* ObjectExtensions.swift */; };
+		EAC410ED1B93EC810010B01D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA705BCC1ABF9E6F00161C34 /* AppDelegate.swift */; };
+		EAC410EE1B93EC810010B01D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B55151ADE2B900090EC27 /* CoreDataStack.swift */; };
+		EAC410EF1B93EC810010B01D /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A325A1AEDAB05009D32D1 /* Country.swift */; };
+		EAC410F11B93EC810010B01D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E61341AE47A0F00D98D7C /* SettingsViewController.swift */; };
+		EAC410F21B93EC810010B01D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACEDC7D1AF98511009BC5E4 /* DateExtensions.swift */; };
+		EAC410F31B93EC810010B01D /* Cribber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA16AFB51AF6E67B00B9AFA7 /* Cribber.xcdatamodeld */; };
+		EAC410F41B93EC810010B01D /* StationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA085BC91AE3B1BF00581C1F /* StationBuilder.swift */; };
+		EAC410F51B93EC810010B01D /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A6861ADF69FC002F8BEF /* Attachment.swift */; };
+		EAC410F61B93EC810010B01D /* FeedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9E6651ADE21750044545F /* FeedBuilder.swift */; };
+		EAC410F71B93EC810010B01D /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A32621AEF2714009D32D1 /* ErrorResponse.swift */; };
+		EAC410F81B93EC810010B01D /* InvitationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA085BC51AE3AE1300581C1F /* InvitationManager.swift */; };
+		EAC410F91B93EC810010B01D /* StationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AAC1AE09AE4007BA364 /* StationExtensions.swift */; };
+		EAC410FA1B93EC810010B01D /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AAA1AE09A23007BA364 /* Identifiable.swift */; };
+		EAC410FB1B93EC810010B01D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C39A51AD6139A00E004FD /* Constants.swift */; };
+		EAC410FC1B93EC810010B01D /* BulletinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56C61ADB461500B4BF8E /* BulletinCell.swift */; };
+		EAC410FD1B93EC810010B01D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4061AD4953C003DCA7F /* SignupViewController.swift */; };
+		EAC410FE1B93EC810010B01D /* InvitationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56C21ADB459600B4BF8E /* InvitationCell.swift */; };
+		EAC410FF1B93EC810010B01D /* FeedItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B55191ADF1C480090EC27 /* FeedItemExtensions.swift */; };
+		EAC411001B93EC810010B01D /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732F931AF8213F007C6688 /* AnalyticsManager.swift */; };
+		EAC411011B93EC810010B01D /* PhoneNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4011AD49533003DCA7F /* PhoneNumberField.swift */; };
+		EAC411021B93EC810010B01D /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA085BC11AE3AB6700581C1F /* SecureStore.swift */; };
+		EAC411031B93EC810010B01D /* AttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C39A71AD61FC000E004FD /* AttachmentCell.swift */; };
+		EAC411041B93EC810010B01D /* CribberAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E61381AE4AA7200D98D7C /* CribberAPI.swift */; };
+		EAC411051B93EC810010B01D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A325E1AEEFAEB009D32D1 /* StringExtensions.swift */; };
+		EAC411061B93EC810010B01D /* ValidatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A32601AEF0AF3009D32D1 /* ValidatedTextField.swift */; };
+		EAC411071B93EC810010B01D /* NoticeboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4051AD4953C003DCA7F /* NoticeboardViewController.swift */; };
+		EAC411081B93EC810010B01D /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56CC1ADB6C7800B4BF8E /* DefaultButton.swift */; };
+		EAC411091B93EC810010B01D /* SignupFormHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAADAD031AFC4BCF0090EE70 /* SignupFormHelper.swift */; };
+		EAC4110A1B93EC810010B01D /* AlertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56C41ADB45C300B4BF8E /* AlertCell.swift */; };
+		EAC4110B1B93EC810010B01D /* FeedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4001AD49533003DCA7F /* FeedItemCell.swift */; };
+		EAC4110C1B93EC810010B01D /* AttachmentExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AA81AE099D9007BA364 /* AttachmentExtensions.swift */; };
+		EAC4110D1B93EC810010B01D /* AttachmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B551D1ADF39750090EC27 /* AttachmentType.swift */; };
+		EAC4110E1B93EC810010B01D /* ApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE096E71AF1AA5E00B3EE06 /* ApplicationExtensions.swift */; };
+		EAC4110F1B93EC810010B01D /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B40C1AD49549003DCA7F /* Styles.swift */; };
+		EAC411101B93EC810010B01D /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4485F91AE39C64001F3735 /* AuthenticationManager.swift */; };
+		EAC411111B93EC810010B01D /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E61361AE4A6AB00D98D7C /* PhoneNumber.swift */; };
+		EAC411121B93EC810010B01D /* FeedItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A68C1ADF6FF8002F8BEF /* FeedItemInfo.swift */; };
+		EAC411131B93EC810010B01D /* LocalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5DB2C1AF701A30020327F /* LocalCell.swift */; };
+		EAC411141B93EC810010B01D /* AttachmentPreviewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA846AB41AE0BC7E007BA364 /* AttachmentPreviewItem.swift */; };
+		EAC411151B93EC810010B01D /* AttachmentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9E66B1ADE22330044545F /* AttachmentLoader.swift */; };
+		EAC411161B93EC810010B01D /* AttachmentPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7FC9101AD7604D00B61684 /* AttachmentPreviewController.swift */; };
+		EAC411171B93EC810010B01D /* PhoneNumberHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A325C1AEDBC5E009D32D1 /* PhoneNumberHelper.swift */; };
+		EAC411181B93EC810010B01D /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E61321AE46B0A00D98D7C /* ViewControllerExtensions.swift */; };
+		EAC411191B93EC810010B01D /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8B4121AD4D14D003DCA7F /* DateFormatterExtensions.swift */; };
+		EAC4111B1B93EC810010B01D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA478E761AF85595000F55A0 /* libsqlite3.dylib */; };
+		EAC4111C1B93EC810010B01D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA478E741AF8558A000F55A0 /* libz.dylib */; };
+		EAC4111D1B93EC810010B01D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA478E721AF85582000F55A0 /* SystemConfiguration.framework */; };
+		EAC4111E1B93EC810010B01D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA478E701AF85577000F55A0 /* CoreData.framework */; };
+		EAC4111F1B93EC810010B01D /* Pods_Cribber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F342F1D7B5E4C596582219CD /* Pods_Cribber.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EAC411231B93EC810010B01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA705BD31ABF9E6F00161C34 /* Main.storyboard */; };
+		EAC411251B93EC810010B01D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA705BD81ABF9E6F00161C34 /* LaunchScreen.xib */; };
+		EAC411261B93EC810010B01D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8A32701AEF3F62009D32D1 /* Localizable.strings */; };
+		EAC411331B93EF550010B01D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA705BD61ABF9E6F00161C34 /* Images.xcassets */; };
+		EAC411341B93F1B40010B01D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA705BD61ABF9E6F00161C34 /* Images.xcassets */; };
+		EACEDC7E1AF98511009BC5E4 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACEDC7D1AF98511009BC5E4 /* DateExtensions.swift */; };
+		EADD65B61ADB839B00C156B0 /* NoStationFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD65B51ADB839B00C156B0 /* NoStationFeedItem.swift */; };
+		EAE096E81AF1AA5E00B3EE06 /* ApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE096E71AF1AA5E00B3EE06 /* ApplicationExtensions.swift */; };
+		EAE5DB2D1AF701A30020327F /* LocalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5DB2C1AF701A30020327F /* LocalCell.swift */; };
+		EAE9E6661ADE21750044545F /* FeedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9E6651ADE21750044545F /* FeedBuilder.swift */; };
+		EAE9E66C1ADE22330044545F /* AttachmentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9E66B1ADE22330044545F /* AttachmentLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA705BE01ABF9E6F00161C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA705BBF1ABF9E6F00161C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA705BC61ABF9E6F00161C34;
+			remoteInfo = Cribber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B5B481AE95728D5733914EF /* Pods-Cribber.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cribber.test.xcconfig"; path = "Pods/Target Support Files/Pods-Cribber/Pods-Cribber.test.xcconfig"; sourceTree = "<group>"; };
+		4558C6401BD4882F001B5810 /* Cribber 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Cribber 4.xcdatamodel"; sourceTree = "<group>"; };
+		45B107511BCB530D00B73388 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		45B107521BCB530D00B73388 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		45B107531BCB530D00B73388 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		45B107541BCB530D00B73388 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		45CD54631BD5B3AF00C66BF9 /* NSURLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtensions.swift; sourceTree = "<group>"; };
+		45CD54661BD5B6B800C66BF9 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		45F4812C1BCE0E9A008E0A73 /* SettingsItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsItemCell.swift; sourceTree = "<group>"; };
+		96A012014B04B577F2C40414 /* Pods-Cribber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cribber.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cribber/Pods-Cribber.release.xcconfig"; sourceTree = "<group>"; };
+		CEB9D586A2DE1862F628046E /* Pods-Cribber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cribber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cribber/Pods-Cribber.debug.xcconfig"; sourceTree = "<group>"; };
+		EA085BC11AE3AB6700581C1F /* SecureStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		EA085BC31AE3ADE200581C1F /* StationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationManager.swift; sourceTree = "<group>"; };
+		EA085BC51AE3AE1300581C1F /* InvitationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationManager.swift; sourceTree = "<group>"; };
+		EA085BC91AE3B1BF00581C1F /* StationBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationBuilder.swift; sourceTree = "<group>"; };
+		EA0F375D1B24FF4700F1B56B /* Cribber 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Cribber 3.xcdatamodel"; sourceTree = "<group>"; };
+		EA16AFB61AF6E67B00B9AFA7 /* Cribber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cribber.xcdatamodel; sourceTree = "<group>"; };
+		EA4485F91AE39C64001F3735 /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		EA478E701AF85577000F55A0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EA478E721AF85582000F55A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EA478E741AF8558A000F55A0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EA478E761AF85595000F55A0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EA52A6861ADF69FC002F8BEF /* Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
+		EA52A68A1ADF69FD002F8BEF /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		EA52A68C1ADF6FF8002F8BEF /* FeedItemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemInfo.swift; sourceTree = "<group>"; };
+		EA6B55151ADE2B900090EC27 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		EA6B55171ADF0DA20090EC27 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		EA6B55191ADF1C480090EC27 /* FeedItemExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemExtensions.swift; sourceTree = "<group>"; };
+		EA6B551B1ADF393B0090EC27 /* FeedItemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemType.swift; sourceTree = "<group>"; };
+		EA6B551D1ADF39750090EC27 /* AttachmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentType.swift; sourceTree = "<group>"; };
+		EA705BC71ABF9E6F00161C34 /* Cribber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cribber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA705BCB1ABF9E6F00161C34 /* Cribber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cribber-Info.plist"; sourceTree = "<group>"; };
+		EA705BCC1ABF9E6F00161C34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA705BD41ABF9E6F00161C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA705BD61ABF9E6F00161C34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA705BD91ABF9E6F00161C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA705BDF1ABF9E6F00161C34 /* CribberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CribberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA705BE41ABF9E6F00161C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA705BE51ABF9E6F00161C34 /* CribberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribberTests.swift; sourceTree = "<group>"; };
+		EA732F931AF8213F007C6688 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		EA77B48D1AF873F4004C933D /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		EA7C39A51AD6139A00E004FD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EA7C39A71AD61FC000E004FD /* AttachmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentCell.swift; sourceTree = "<group>"; };
+		EA7FC9101AD7604D00B61684 /* AttachmentPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentPreviewController.swift; sourceTree = "<group>"; };
+		EA846AA81AE099D9007BA364 /* AttachmentExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentExtensions.swift; sourceTree = "<group>"; };
+		EA846AAA1AE09A23007BA364 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		EA846AAC1AE09AE4007BA364 /* StationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationExtensions.swift; sourceTree = "<group>"; };
+		EA846AAE1AE09ED9007BA364 /* ObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectExtensions.swift; sourceTree = "<group>"; };
+		EA846AB01AE0A852007BA364 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		EA846AB41AE0BC7E007BA364 /* AttachmentPreviewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentPreviewItem.swift; sourceTree = "<group>"; };
+		EA8A325A1AEDAB05009D32D1 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		EA8A325C1AEDBC5E009D32D1 /* PhoneNumberHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberHelper.swift; sourceTree = "<group>"; };
+		EA8A325E1AEEFAEB009D32D1 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		EA8A32601AEF0AF3009D32D1 /* ValidatedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatedTextField.swift; sourceTree = "<group>"; };
+		EA8A32621AEF2714009D32D1 /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		EA8A326F1AEF3F62009D32D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EA8E61321AE46B0A00D98D7C /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		EA8E61341AE47A0F00D98D7C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EA8E61361AE4A6AB00D98D7C /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		EA8E61381AE4AA7200D98D7C /* CribberAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CribberAPI.swift; sourceTree = "<group>"; };
+		EAADAD031AFC4BCF0090EE70 /* SignupFormHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupFormHelper.swift; sourceTree = "<group>"; };
+		EAAE56C21ADB459600B4BF8E /* InvitationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationCell.swift; sourceTree = "<group>"; };
+		EAAE56C41ADB45C300B4BF8E /* AlertCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertCell.swift; sourceTree = "<group>"; };
+		EAAE56C61ADB461500B4BF8E /* BulletinCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletinCell.swift; sourceTree = "<group>"; };
+		EAAE56CC1ADB6C7800B4BF8E /* DefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		EAB8B3F41AD49328003DCA7F /* Cribber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cribber-Bridging-Header.h"; sourceTree = "<group>"; };
+		EAB8B4001AD49533003DCA7F /* FeedItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemCell.swift; sourceTree = "<group>"; };
+		EAB8B4011AD49533003DCA7F /* PhoneNumberField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberField.swift; sourceTree = "<group>"; };
+		EAB8B4051AD4953C003DCA7F /* NoticeboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeboardViewController.swift; sourceTree = "<group>"; };
+		EAB8B4061AD4953C003DCA7F /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		EAB8B4071AD4953C003DCA7F /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		EAB8B40B1AD49549003DCA7F /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		EAB8B40C1AD49549003DCA7F /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		EAB8B4101AD4980C003DCA7F /* FeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedManager.swift; sourceTree = "<group>"; };
+		EAB8B4121AD4D14D003DCA7F /* DateFormatterExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterExtensions.swift; sourceTree = "<group>"; };
+		EAC398DF1B158A50001DB4B7 /* Cribber 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Cribber 2.xcdatamodel"; sourceTree = "<group>"; };
+		EAC411311B93EC810010B01D /* Cribber Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cribber Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACEDC7D1AF98511009BC5E4 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		EADD65B51ADB839B00C156B0 /* NoStationFeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoStationFeedItem.swift; sourceTree = "<group>"; };
+		EAE096E71AF1AA5E00B3EE06 /* ApplicationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationExtensions.swift; sourceTree = "<group>"; };
+		EAE5DB2C1AF701A30020327F /* LocalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalCell.swift; sourceTree = "<group>"; };
+		EAE9E6651ADE21750044545F /* FeedBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBuilder.swift; sourceTree = "<group>"; };
+		EAE9E66B1ADE22330044545F /* AttachmentLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentLoader.swift; sourceTree = "<group>"; };
+		F342F1D7B5E4C596582219CD /* Pods_Cribber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cribber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA705BC41ABF9E6F00161C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA478E771AF85595000F55A0 /* libsqlite3.dylib in Frameworks */,
+				EA478E751AF8558A000F55A0 /* libz.dylib in Frameworks */,
+				EA478E731AF85582000F55A0 /* SystemConfiguration.framework in Frameworks */,
+				EA478E711AF85577000F55A0 /* CoreData.framework in Frameworks */,
+				A44A5CF6BDC44E29F0F858B4 /* Pods_Cribber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA705BDC1ABF9E6F00161C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC4111A1B93EC810010B01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC4111B1B93EC810010B01D /* libsqlite3.dylib in Frameworks */,
+				EAC4111C1B93EC810010B01D /* libz.dylib in Frameworks */,
+				EAC4111D1B93EC810010B01D /* SystemConfiguration.framework in Frameworks */,
+				EAC4111E1B93EC810010B01D /* CoreData.framework in Frameworks */,
+				EAC4111F1B93EC810010B01D /* Pods_Cribber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32FCE9D6CA7E3A7C86799940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA478E761AF85595000F55A0 /* libsqlite3.dylib */,
+				EA478E741AF8558A000F55A0 /* libz.dylib */,
+				EA478E721AF85582000F55A0 /* SystemConfiguration.framework */,
+				EA478E701AF85577000F55A0 /* CoreData.framework */,
+				F342F1D7B5E4C596582219CD /* Pods_Cribber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		545FD3A3384838BFEBB9A32D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9D586A2DE1862F628046E /* Pods-Cribber.debug.xcconfig */,
+				96A012014B04B577F2C40414 /* Pods-Cribber.release.xcconfig */,
+				1B5B481AE95728D5733914EF /* Pods-Cribber.test.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA078A7C1AE9B09C00DA31FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA078A7D1AE9B09C00DA31FB /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA078A7D1AE9B09C00DA31FB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				45B107511BCB530D00B73388 /* Lato-Black.ttf */,
+				45B107521BCB530D00B73388 /* Lato-Bold.ttf */,
+				45B107531BCB530D00B73388 /* Lato-Light.ttf */,
+				45B107541BCB530D00B73388 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EA705BBE1ABF9E6F00161C34 = {
+			isa = PBXGroup;
+			children = (
+				EA705BC91ABF9E6F00161C34 /* Cribber */,
+				EA705BE21ABF9E6F00161C34 /* CribberTests */,
+				EA705BC81ABF9E6F00161C34 /* Products */,
+				545FD3A3384838BFEBB9A32D /* Pods */,
+				32FCE9D6CA7E3A7C86799940 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA705BC81ABF9E6F00161C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA705BC71ABF9E6F00161C34 /* Cribber.app */,
+				EA705BDF1ABF9E6F00161C34 /* CribberTests.xctest */,
+				EAC411311B93EC810010B01D /* Cribber Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA705BC91ABF9E6F00161C34 /* Cribber */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8B3F81AD493E6003DCA7F /* Models */,
+				EAB8B3F91AD493EC003DCA7F /* Views */,
+				EAB8B3FA1AD493F0003DCA7F /* Controllers */,
+				EAB8B3FB1AD493F7003DCA7F /* Helpers */,
+				EAB8B40F1AD497E5003DCA7F /* Services */,
+				EA078A7C1AE9B09C00DA31FB /* Resources */,
+				EA705BCC1ABF9E6F00161C34 /* AppDelegate.swift */,
+				EA705BD81ABF9E6F00161C34 /* LaunchScreen.xib */,
+				EA705BD31ABF9E6F00161C34 /* Main.storyboard */,
+				EA705BD61ABF9E6F00161C34 /* Images.xcassets */,
+				EA16AFB51AF6E67B00B9AFA7 /* Cribber.xcdatamodeld */,
+				EA705BCA1ABF9E6F00161C34 /* Supporting Files */,
+			);
+			path = Cribber;
+			sourceTree = "<group>";
+		};
+		EA705BCA1ABF9E6F00161C34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8A32701AEF3F62009D32D1 /* Localizable.strings */,
+				EAB8B3F41AD49328003DCA7F /* Cribber-Bridging-Header.h */,
+				EA705BCB1ABF9E6F00161C34 /* Cribber-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA705BE21ABF9E6F00161C34 /* CribberTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA705BE51ABF9E6F00161C34 /* CribberTests.swift */,
+				EA705BE31ABF9E6F00161C34 /* Supporting Files */,
+			);
+			path = CribberTests;
+			sourceTree = "<group>";
+		};
+		EA705BE31ABF9E6F00161C34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA705BE41ABF9E6F00161C34 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB8B3F81AD493E6003DCA7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA52A6861ADF69FC002F8BEF /* Attachment.swift */,
+				EA846AA81AE099D9007BA364 /* AttachmentExtensions.swift */,
+				EA6B551D1ADF39750090EC27 /* AttachmentType.swift */,
+				EA8A325A1AEDAB05009D32D1 /* Country.swift */,
+				EA8A32621AEF2714009D32D1 /* ErrorResponse.swift */,
+				EA846AB01AE0A852007BA364 /* FeedItem.swift */,
+				EA6B55191ADF1C480090EC27 /* FeedItemExtensions.swift */,
+				EA52A68C1ADF6FF8002F8BEF /* FeedItemInfo.swift */,
+				EA6B551B1ADF393B0090EC27 /* FeedItemType.swift */,
+				EA846AAA1AE09A23007BA364 /* Identifiable.swift */,
+				EADD65B51ADB839B00C156B0 /* NoStationFeedItem.swift */,
+				EA8E61361AE4A6AB00D98D7C /* PhoneNumber.swift */,
+				EA52A68A1ADF69FD002F8BEF /* Station.swift */,
+				EA846AAC1AE09AE4007BA364 /* StationExtensions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EAB8B3F91AD493EC003DCA7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE56C41ADB45C300B4BF8E /* AlertCell.swift */,
+				EA7C39A71AD61FC000E004FD /* AttachmentCell.swift */,
+				EAAE56C61ADB461500B4BF8E /* BulletinCell.swift */,
+				EAAE56CC1ADB6C7800B4BF8E /* DefaultButton.swift */,
+				EAB8B4001AD49533003DCA7F /* FeedItemCell.swift */,
+				EAAE56C21ADB459600B4BF8E /* InvitationCell.swift */,
+				EAE5DB2C1AF701A30020327F /* LocalCell.swift */,
+				EAB8B4011AD49533003DCA7F /* PhoneNumberField.swift */,
+				EA8A32601AEF0AF3009D32D1 /* ValidatedTextField.swift */,
+				45F4812C1BCE0E9A008E0A73 /* SettingsItemCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAB8B3FA1AD493F0003DCA7F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA7FC9101AD7604D00B61684 /* AttachmentPreviewController.swift */,
+				EAB8B4051AD4953C003DCA7F /* NoticeboardViewController.swift */,
+				EA8E61341AE47A0F00D98D7C /* SettingsViewController.swift */,
+				EAB8B4061AD4953C003DCA7F /* SignupViewController.swift */,
+				EAB8B4071AD4953C003DCA7F /* VerifyViewController.swift */,
+				45CD54661BD5B6B800C66BF9 /* NavigationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EAB8B3FB1AD493F7003DCA7F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAE096E71AF1AA5E00B3EE06 /* ApplicationExtensions.swift */,
+				EAB8B40B1AD49549003DCA7F /* ColorExtensions.swift */,
+				EA7C39A51AD6139A00E004FD /* Constants.swift */,
+				EACEDC7D1AF98511009BC5E4 /* DateExtensions.swift */,
+				EAB8B4121AD4D14D003DCA7F /* DateFormatterExtensions.swift */,
+				EA846AAE1AE09ED9007BA364 /* ObjectExtensions.swift */,
+				EA8A325C1AEDBC5E009D32D1 /* PhoneNumberHelper.swift */,
+				EAADAD031AFC4BCF0090EE70 /* SignupFormHelper.swift */,
+				EA8A325E1AEEFAEB009D32D1 /* StringExtensions.swift */,
+				EAB8B40C1AD49549003DCA7F /* Styles.swift */,
+				EA8E61321AE46B0A00D98D7C /* ViewControllerExtensions.swift */,
+				45CD54631BD5B3AF00C66BF9 /* NSURLExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EAB8B40F1AD497E5003DCA7F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EA732F931AF8213F007C6688 /* AnalyticsManager.swift */,
+				EAE9E66B1ADE22330044545F /* AttachmentLoader.swift */,
+				EA846AB41AE0BC7E007BA364 /* AttachmentPreviewItem.swift */,
+				EA4485F91AE39C64001F3735 /* AuthenticationManager.swift */,
+				EA6B55151ADE2B900090EC27 /* CoreDataStack.swift */,
+				EA6B55171ADF0DA20090EC27 /* CoreDataStore.swift */,
+				EA8E61381AE4AA7200D98D7C /* CribberAPI.swift */,
+				EAE9E6651ADE21750044545F /* FeedBuilder.swift */,
+				EAB8B4101AD4980C003DCA7F /* FeedManager.swift */,
+				EA085BC51AE3AE1300581C1F /* InvitationManager.swift */,
+				EA77B48D1AF873F4004C933D /* Log.swift */,
+				EA085BC11AE3AB6700581C1F /* SecureStore.swift */,
+				EA085BC91AE3B1BF00581C1F /* StationBuilder.swift */,
+				EA085BC31AE3ADE200581C1F /* StationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA705BC61ABF9E6F00161C34 /* Cribber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA705BE91ABF9E6F00161C34 /* Build configuration list for PBXNativeTarget "Cribber" */;
+			buildPhases = (
+				8E6F7BEDB07A014AFD301D6F /* Check Pods Manifest.lock */,
+				EA705BC31ABF9E6F00161C34 /* Sources */,
+				EA705BC41ABF9E6F00161C34 /* Frameworks */,
+				EA705BC51ABF9E6F00161C34 /* Resources */,
+				E0C3D136BF38C764A7E52829 /* Embed Pods Frameworks */,
+				6BF3C8A0A93C14523C160AAB /* Copy Pods Resources */,
+				EAE096E41AF1815500B3EE06 /* NewRelic Postbuild */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cribber;
+			productName = Cribber;
+			productReference = EA705BC71ABF9E6F00161C34 /* Cribber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA705BDE1ABF9E6F00161C34 /* CribberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA705BEC1ABF9E6F00161C34 /* Build configuration list for PBXNativeTarget "CribberTests" */;
+			buildPhases = (
+				EA705BDB1ABF9E6F00161C34 /* Sources */,
+				EA705BDC1ABF9E6F00161C34 /* Frameworks */,
+				EA705BDD1ABF9E6F00161C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA705BE11ABF9E6F00161C34 /* PBXTargetDependency */,
+			);
+			name = CribberTests;
+			productName = CribberTests;
+			productReference = EA705BDF1ABF9E6F00161C34 /* CribberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAC410DF1B93EC810010B01D /* CribberTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC4112D1B93EC810010B01D /* Build configuration list for PBXNativeTarget "CribberTest" */;
+			buildPhases = (
+				EAC410E01B93EC810010B01D /* Check Pods Manifest.lock */,
+				EAC410E11B93EC810010B01D /* Sources */,
+				EAC4111A1B93EC810010B01D /* Frameworks */,
+				EAC411211B93EC810010B01D /* Resources */,
+				EAC4112A1B93EC810010B01D /* Embed Pods Frameworks */,
+				EAC4112B1B93EC810010B01D /* Copy Pods Resources */,
+				EAC4112C1B93EC810010B01D /* NewRelic Postbuild */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CribberTest;
+			productName = Cribber;
+			productReference = EAC411311B93EC810010B01D /* Cribber Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA705BBF1ABF9E6F00161C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Skirr Pty Ltd";
+				TargetAttributes = {
+					EA705BC61ABF9E6F00161C34 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 58NAY9DQA9;
+					};
+					EA705BDE1ABF9E6F00161C34 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EA705BC61ABF9E6F00161C34;
+					};
+					EAC410DF1B93EC810010B01D = {
+						DevelopmentTeam = 58NAY9DQA9;
+					};
+				};
+			};
+			buildConfigurationList = EA705BC21ABF9E6F00161C34 /* Build configuration list for PBXProject "Cribber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA705BBE1ABF9E6F00161C34;
+			productRefGroup = EA705BC81ABF9E6F00161C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA705BC61ABF9E6F00161C34 /* Cribber */,
+				EAC410DF1B93EC810010B01D /* CribberTest */,
+				EA705BDE1ABF9E6F00161C34 /* CribberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA705BC51ABF9E6F00161C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC411341B93F1B40010B01D /* Images.xcassets in Resources */,
+				EA705BD51ABF9E6F00161C34 /* Main.storyboard in Resources */,
+				45B107551BCB530D00B73388 /* Lato-Black.ttf in Resources */,
+				45B107591BCB530D00B73388 /* Lato-Light.ttf in Resources */,
+				EA705BDA1ABF9E6F00161C34 /* LaunchScreen.xib in Resources */,
+				EA8A326E1AEF3F62009D32D1 /* Localizable.strings in Resources */,
+				45B107571BCB530D00B73388 /* Lato-Bold.ttf in Resources */,
+				45B1075B1BCB530D00B73388 /* Lato-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA705BDD1ABF9E6F00161C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC411211B93EC810010B01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC411331B93EF550010B01D /* Images.xcassets in Resources */,
+				EAC411231B93EC810010B01D /* Main.storyboard in Resources */,
+				45B107561BCB530D00B73388 /* Lato-Black.ttf in Resources */,
+				45B1075A1BCB530D00B73388 /* Lato-Light.ttf in Resources */,
+				EAC411251B93EC810010B01D /* LaunchScreen.xib in Resources */,
+				EAC411261B93EC810010B01D /* Localizable.strings in Resources */,
+				45B107581BCB530D00B73388 /* Lato-Bold.ttf in Resources */,
+				45B1075C1BCB530D00B73388 /* Lato-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BF3C8A0A93C14523C160AAB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cribber/Pods-Cribber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E6F7BEDB07A014AFD301D6F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C3D136BF38C764A7E52829 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cribber/Pods-Cribber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC410E01B93EC810010B01D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC4112A1B93EC810010B01D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cribber/Pods-Cribber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC4112B1B93EC810010B01D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cribber/Pods-Cribber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC4112C1B93EC810010B01D /* NewRelic Postbuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NewRelic Postbuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\" \"${NEWRELIC_TOKEN}\"";
+		};
+		EAE096E41AF1815500B3EE06 /* NewRelic Postbuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NewRelic Postbuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\" \"${NEWRELIC_TOKEN}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA705BC31ABF9E6F00161C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6B55181ADF0DA20090EC27 /* CoreDataStore.swift in Sources */,
+				45F4812D1BCE0E9A008E0A73 /* SettingsItemCell.swift in Sources */,
+				45CD54641BD5B3AF00C66BF9 /* NSURLExtensions.swift in Sources */,
+				EAB8B40A1AD4953C003DCA7F /* VerifyViewController.swift in Sources */,
+				EA77B48E1AF873F4004C933D /* Log.swift in Sources */,
+				EAB8B40D1AD49549003DCA7F /* ColorExtensions.swift in Sources */,
+				EA085BC41AE3ADE200581C1F /* StationManager.swift in Sources */,
+				EADD65B61ADB839B00C156B0 /* NoStationFeedItem.swift in Sources */,
+				EAB8B4111AD4980C003DCA7F /* FeedManager.swift in Sources */,
+				EA846AB11AE0A852007BA364 /* FeedItem.swift in Sources */,
+				EA6B551C1ADF393B0090EC27 /* FeedItemType.swift in Sources */,
+				EA52A68B1ADF69FD002F8BEF /* Station.swift in Sources */,
+				EA846AAF1AE09ED9007BA364 /* ObjectExtensions.swift in Sources */,
+				EA705BCD1ABF9E6F00161C34 /* AppDelegate.swift in Sources */,
+				EA6B55161ADE2B900090EC27 /* CoreDataStack.swift in Sources */,
+				EA8A325B1AEDAB05009D32D1 /* Country.swift in Sources */,
+				EA8E61351AE47A0F00D98D7C /* SettingsViewController.swift in Sources */,
+				EACEDC7E1AF98511009BC5E4 /* DateExtensions.swift in Sources */,
+				EA16AFB71AF6E67B00B9AFA7 /* Cribber.xcdatamodeld in Sources */,
+				EA085BCA1AE3B1BF00581C1F /* StationBuilder.swift in Sources */,
+				EA52A6871ADF69FC002F8BEF /* Attachment.swift in Sources */,
+				EAE9E6661ADE21750044545F /* FeedBuilder.swift in Sources */,
+				EA8A32631AEF2714009D32D1 /* ErrorResponse.swift in Sources */,
+				EA085BC61AE3AE1300581C1F /* InvitationManager.swift in Sources */,
+				EA846AAD1AE09AE4007BA364 /* StationExtensions.swift in Sources */,
+				EA846AAB1AE09A23007BA364 /* Identifiable.swift in Sources */,
+				EA7C39A61AD6139A00E004FD /* Constants.swift in Sources */,
+				EAAE56C71ADB461500B4BF8E /* BulletinCell.swift in Sources */,
+				EAB8B4091AD4953C003DCA7F /* SignupViewController.swift in Sources */,
+				EAAE56C31ADB459600B4BF8E /* InvitationCell.swift in Sources */,
+				EA6B551A1ADF1C480090EC27 /* FeedItemExtensions.swift in Sources */,
+				EA732F941AF8213F007C6688 /* AnalyticsManager.swift in Sources */,
+				EAB8B4041AD49533003DCA7F /* PhoneNumberField.swift in Sources */,
+				EA085BC21AE3AB6700581C1F /* SecureStore.swift in Sources */,
+				EA7C39A81AD61FC000E004FD /* AttachmentCell.swift in Sources */,
+				EA8E61391AE4AA7200D98D7C /* CribberAPI.swift in Sources */,
+				EA8A325F1AEEFAEB009D32D1 /* StringExtensions.swift in Sources */,
+				EA8A32611AEF0AF3009D32D1 /* ValidatedTextField.swift in Sources */,
+				EAB8B4081AD4953C003DCA7F /* NoticeboardViewController.swift in Sources */,
+				EAAE56CD1ADB6C7800B4BF8E /* DefaultButton.swift in Sources */,
+				EAADAD041AFC4BCF0090EE70 /* SignupFormHelper.swift in Sources */,
+				EAAE56C51ADB45C300B4BF8E /* AlertCell.swift in Sources */,
+				EAB8B4031AD49533003DCA7F /* FeedItemCell.swift in Sources */,
+				45CD54671BD5B6B800C66BF9 /* NavigationController.swift in Sources */,
+				EA846AA91AE099D9007BA364 /* AttachmentExtensions.swift in Sources */,
+				EA6B551E1ADF39750090EC27 /* AttachmentType.swift in Sources */,
+				EAE096E81AF1AA5E00B3EE06 /* ApplicationExtensions.swift in Sources */,
+				EAB8B40E1AD49549003DCA7F /* Styles.swift in Sources */,
+				EA4485FA1AE39C64001F3735 /* AuthenticationManager.swift in Sources */,
+				EA8E61371AE4A6AB00D98D7C /* PhoneNumber.swift in Sources */,
+				EA52A68D1ADF6FF8002F8BEF /* FeedItemInfo.swift in Sources */,
+				EAE5DB2D1AF701A30020327F /* LocalCell.swift in Sources */,
+				EA846AB51AE0BC7E007BA364 /* AttachmentPreviewItem.swift in Sources */,
+				EAE9E66C1ADE22330044545F /* AttachmentLoader.swift in Sources */,
+				EA7FC9111AD7604D00B61684 /* AttachmentPreviewController.swift in Sources */,
+				EA8A325D1AEDBC5E009D32D1 /* PhoneNumberHelper.swift in Sources */,
+				EA8E61331AE46B0A00D98D7C /* ViewControllerExtensions.swift in Sources */,
+				EAB8B4131AD4D14D003DCA7F /* DateFormatterExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA705BDB1ABF9E6F00161C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA705BE61ABF9E6F00161C34 /* CribberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC410E11B93EC810010B01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC410E21B93EC810010B01D /* CoreDataStore.swift in Sources */,
+				45F4812E1BCE0E9A008E0A73 /* SettingsItemCell.swift in Sources */,
+				45CD54651BD5B3AF00C66BF9 /* NSURLExtensions.swift in Sources */,
+				EAC410E31B93EC810010B01D /* VerifyViewController.swift in Sources */,
+				EAC410E41B93EC810010B01D /* Log.swift in Sources */,
+				EAC410E51B93EC810010B01D /* ColorExtensions.swift in Sources */,
+				EAC410E61B93EC810010B01D /* StationManager.swift in Sources */,
+				EAC410E71B93EC810010B01D /* NoStationFeedItem.swift in Sources */,
+				EAC410E81B93EC810010B01D /* FeedManager.swift in Sources */,
+				EAC410E91B93EC810010B01D /* FeedItem.swift in Sources */,
+				EAC410EA1B93EC810010B01D /* FeedItemType.swift in Sources */,
+				EAC410EB1B93EC810010B01D /* Station.swift in Sources */,
+				EAC410EC1B93EC810010B01D /* ObjectExtensions.swift in Sources */,
+				EAC410ED1B93EC810010B01D /* AppDelegate.swift in Sources */,
+				EAC410EE1B93EC810010B01D /* CoreDataStack.swift in Sources */,
+				EAC410EF1B93EC810010B01D /* Country.swift in Sources */,
+				EAC410F11B93EC810010B01D /* SettingsViewController.swift in Sources */,
+				EAC410F21B93EC810010B01D /* DateExtensions.swift in Sources */,
+				EAC410F31B93EC810010B01D /* Cribber.xcdatamodeld in Sources */,
+				EAC410F41B93EC810010B01D /* StationBuilder.swift in Sources */,
+				EAC410F51B93EC810010B01D /* Attachment.swift in Sources */,
+				EAC410F61B93EC810010B01D /* FeedBuilder.swift in Sources */,
+				EAC410F71B93EC810010B01D /* ErrorResponse.swift in Sources */,
+				EAC410F81B93EC810010B01D /* InvitationManager.swift in Sources */,
+				EAC410F91B93EC810010B01D /* StationExtensions.swift in Sources */,
+				EAC410FA1B93EC810010B01D /* Identifiable.swift in Sources */,
+				EAC410FB1B93EC810010B01D /* Constants.swift in Sources */,
+				EAC410FC1B93EC810010B01D /* BulletinCell.swift in Sources */,
+				EAC410FD1B93EC810010B01D /* SignupViewController.swift in Sources */,
+				EAC410FE1B93EC810010B01D /* InvitationCell.swift in Sources */,
+				EAC410FF1B93EC810010B01D /* FeedItemExtensions.swift in Sources */,
+				EAC411001B93EC810010B01D /* AnalyticsManager.swift in Sources */,
+				EAC411011B93EC810010B01D /* PhoneNumberField.swift in Sources */,
+				EAC411021B93EC810010B01D /* SecureStore.swift in Sources */,
+				EAC411031B93EC810010B01D /* AttachmentCell.swift in Sources */,
+				EAC411041B93EC810010B01D /* CribberAPI.swift in Sources */,
+				EAC411051B93EC810010B01D /* StringExtensions.swift in Sources */,
+				EAC411061B93EC810010B01D /* ValidatedTextField.swift in Sources */,
+				EAC411071B93EC810010B01D /* NoticeboardViewController.swift in Sources */,
+				EAC411081B93EC810010B01D /* DefaultButton.swift in Sources */,
+				EAC411091B93EC810010B01D /* SignupFormHelper.swift in Sources */,
+				EAC4110A1B93EC810010B01D /* AlertCell.swift in Sources */,
+				EAC4110B1B93EC810010B01D /* FeedItemCell.swift in Sources */,
+				45CD54681BD5B6B800C66BF9 /* NavigationController.swift in Sources */,
+				EAC4110C1B93EC810010B01D /* AttachmentExtensions.swift in Sources */,
+				EAC4110D1B93EC810010B01D /* AttachmentType.swift in Sources */,
+				EAC4110E1B93EC810010B01D /* ApplicationExtensions.swift in Sources */,
+				EAC4110F1B93EC810010B01D /* Styles.swift in Sources */,
+				EAC411101B93EC810010B01D /* AuthenticationManager.swift in Sources */,
+				EAC411111B93EC810010B01D /* PhoneNumber.swift in Sources */,
+				EAC411121B93EC810010B01D /* FeedItemInfo.swift in Sources */,
+				EAC411131B93EC810010B01D /* LocalCell.swift in Sources */,
+				EAC411141B93EC810010B01D /* AttachmentPreviewItem.swift in Sources */,
+				EAC411151B93EC810010B01D /* AttachmentLoader.swift in Sources */,
+				EAC411161B93EC810010B01D /* AttachmentPreviewController.swift in Sources */,
+				EAC411171B93EC810010B01D /* PhoneNumberHelper.swift in Sources */,
+				EAC411181B93EC810010B01D /* ViewControllerExtensions.swift in Sources */,
+				EAC411191B93EC810010B01D /* DateFormatterExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA705BE11ABF9E6F00161C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA705BC61ABF9E6F00161C34 /* Cribber */;
+			targetProxy = EA705BE01ABF9E6F00161C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA705BD31ABF9E6F00161C34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA705BD41ABF9E6F00161C34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA705BD81ABF9E6F00161C34 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA705BD91ABF9E6F00161C34 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EA8A32701AEF3F62009D32D1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8A326F1AEF3F62009D32D1 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA54B68A1AF0589A001516E3 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GA_TRACKING_ID = "UA-61219793-1";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				NEWRELIC_TOKEN = AA52581b73938663b57a38e1f73feb44f9acf084c4;
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Test;
+		};
+		EA54B68B1AF0589A001516E3 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5B481AE95728D5733914EF /* Pods-Cribber.test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Cribber/Cribber-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"TEST\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skirr.cribber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cribber/Cribber-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+		EA54B68C1AF0589A001516E3 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = CribberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skirr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33c90024-cc65-4969-9e64-22fcba3ce938";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cribber.app/Cribber";
+			};
+			name = Test;
+		};
+		EA705BE71ABF9E6F00161C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GA_TRACKING_ID = "UA-61219793-1";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				NEWRELIC_TOKEN = AA52581b73938663b57a38e1f73feb44f9acf084c4;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA705BE81ABF9E6F00161C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GA_TRACKING_ID = "UA-61219793-3";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				NEWRELIC_TOKEN = AAa2ec3d304908974e844e9cb86901225e782f96c8;
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA705BEA1ABF9E6F00161C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB9D586A2DE1862F628046E /* Pods-Cribber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Cribber/Cribber-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"DEBUG\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skirr.cribber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cribber/Cribber-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA705BEB1ABF9E6F00161C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A012014B04B577F2C40414 /* Pods-Cribber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Cribber/Cribber-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skirr.cribber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cribber/Cribber-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA705BED1ABF9E6F00161C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CribberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skirr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33c90024-cc65-4969-9e64-22fcba3ce938";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cribber.app/Cribber";
+			};
+			name = Debug;
+		};
+		EA705BEE1ABF9E6F00161C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = CribberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skirr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33c90024-cc65-4969-9e64-22fcba3ce938";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cribber.app/Cribber";
+			};
+			name = Release;
+		};
+		EAC4112E1B93EC810010B01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB9D586A2DE1862F628046E /* Pods-Cribber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Test";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GA_TRACKING_ID = "UA-61219793-1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Cribber/Cribber-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"DEBUG\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skirr.cribber.test;
+				PRODUCT_MODULE_NAME = Cribber;
+				PRODUCT_NAME = "Cribber Test";
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cribber/Cribber-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAC4112F1B93EC810010B01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A012014B04B577F2C40414 /* Pods-Cribber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Test";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Cribber/Cribber-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skirr.cribber.test;
+				PRODUCT_MODULE_NAME = Cribber;
+				PRODUCT_NAME = "Cribber Test";
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cribber/Cribber-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAC411301B93EC810010B01D /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5B481AE95728D5733914EF /* Pods-Cribber.test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Test";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GA_TRACKING_ID = "UA-61219793-1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Cribber/Cribber-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"TEST\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skirr.cribber.test;
+				PRODUCT_MODULE_NAME = Cribber;
+				PRODUCT_NAME = "Cribber Test";
+				PROVISIONING_PROFILE = "82863dad-82d3-42da-a6f2-6065bd677a15";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cribber/Cribber-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA705BC21ABF9E6F00161C34 /* Build configuration list for PBXProject "Cribber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA705BE71ABF9E6F00161C34 /* Debug */,
+				EA705BE81ABF9E6F00161C34 /* Release */,
+				EA54B68A1AF0589A001516E3 /* Test */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA705BE91ABF9E6F00161C34 /* Build configuration list for PBXNativeTarget "Cribber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA705BEA1ABF9E6F00161C34 /* Debug */,
+				EA705BEB1ABF9E6F00161C34 /* Release */,
+				EA54B68B1AF0589A001516E3 /* Test */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA705BEC1ABF9E6F00161C34 /* Build configuration list for PBXNativeTarget "CribberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA705BED1ABF9E6F00161C34 /* Debug */,
+				EA705BEE1ABF9E6F00161C34 /* Release */,
+				EA54B68C1AF0589A001516E3 /* Test */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC4112D1B93EC810010B01D /* Build configuration list for PBXNativeTarget "CribberTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC4112E1B93EC810010B01D /* Debug */,
+				EAC4112F1B93EC810010B01D /* Release */,
+				EAC411301B93EC810010B01D /* Test */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA16AFB51AF6E67B00B9AFA7 /* Cribber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4558C6401BD4882F001B5810 /* Cribber 4.xcdatamodel */,
+				EA0F375D1B24FF4700F1B56B /* Cribber 3.xcdatamodel */,
+				EAC398DF1B158A50001DB4B7 /* Cribber 2.xcdatamodel */,
+				EA16AFB61AF6E67B00B9AFA7 /* Cribber.xcdatamodel */,
+			);
+			currentVersion = 4558C6401BD4882F001B5810 /* Cribber 4.xcdatamodel */;
+			path = Cribber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA705BBF1ABF9E6F00161C34 /* Project object */;
+}

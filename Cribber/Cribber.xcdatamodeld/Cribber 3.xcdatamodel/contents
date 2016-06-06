@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Attachment" representedClassName="Cribber.Attachment" syncable="YES">
+        <attribute name="contentType" attributeType="String" syncable="YES"/>
+        <attribute name="localFilePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previewURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remoteID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sourceURL" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="feedItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FeedItem" inverseName="attachments" inverseEntity="FeedItem" syncable="YES"/>
+    </entity>
+    <entity name="FeedItem" representedClassName="Cribber.FeedItem" syncable="YES">
+        <attribute name="feedItemType" attributeType="String" syncable="YES"/>
+        <attribute name="from" attributeType="String" syncable="YES"/>
+        <attribute name="logoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" attributeType="String" syncable="YES"/>
+        <attribute name="order" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="publishDate" attributeType="Date" syncable="YES"/>
+        <attribute name="remoteID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="subject" attributeType="String" syncable="YES"/>
+        <relationship name="attachments" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Attachment" inverseName="feedItem" inverseEntity="Attachment" syncable="YES"/>
+    </entity>
+    <entity name="Station" representedClassName="Cribber.Station" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="remoteID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Attachment" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Station" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="FeedItem" positionX="-36" positionY="9" width="128" height="180"/>
+    </elements>
+</model>

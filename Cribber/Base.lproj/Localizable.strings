@@ -1,0 +1,14 @@
+/* 
+   Localizable.strings
+  Cribber
+
+  Created by Tim Ross on 13/04/15.
+  Copyright (c) 2015 Skirr Pty Ltd. All rights reserved.
+*/
+
+"Accept" = "Accept";
+"Reject" = "Reject";
+"Error" = "Error";
+"OK" = "OK";
+"StationSectionEmptyFooter" = "You have not subscribed to any stations.";
+"NetworkErrorMessage" = "Could not connect to the server.";
